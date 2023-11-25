@@ -1,0 +1,16 @@
+﻿@model Prodotto
+@{
+    ViewData["Title"] = "Prodotti";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Pagina dei Prodotti..., @Model.Nome @Model.Prezzo</p>
+<table>
+@{
+    for(int x =0;x<10;x++){
+      <tr><td>Colonna1</td><td>Colonna2</td><td>Colonna3</td><td>Colonna4</td></tr>
+    }
+}
+</table>
+
+
